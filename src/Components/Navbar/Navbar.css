@@ -3,8 +3,25 @@ nav {
   background: black;
   color: #fff;
   overflow: hidden;
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  display: flex;
+  height: 80px;
+  align-items: center;
+  z-index: 10;
+  justify-content: space-around;
 }
-img {
-  width: 180px;
-  height: 130px;
+.logo {
+  width: 140px;
+  height: 80px;
+}
+h1 {
+  padding-left: 10px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  font: 16px;
+  justify-content: space-between;
 }

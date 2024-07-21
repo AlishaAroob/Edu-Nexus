@@ -1,0 +1,10 @@
+nav {
+  width: 100%;
+  background: black;
+  color: #fff;
+  overflow: hidden;
+}
+img {
+  width: 180px;
+  height: 130px;
+}

@@ -1,0 +1,15 @@
+.Programs {
+  width: 90%;
+  margin: 80px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Program img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+}
+.Program {
+  flex-basis: 31%;
+}

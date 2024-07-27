@@ -6,13 +6,17 @@ import Program3 from "../../assets/program-3.png"
 
 const Programs = () => {
     return (
-        <div className='Programs'>
+        <div className="Programs">
             <div className="Program">
                 <img src={Program1} alt='' />
-                <img src={Program2} alt='' />
-                <img src={Program3} alt='' />
-
             </div>
+            <div className="Program">
+                <img src={Program2} alt='' />
+            </div>
+            <div className="Program">
+                <img src={Program3} alt='' />
+            </div>
+
         </div>
     )
 }

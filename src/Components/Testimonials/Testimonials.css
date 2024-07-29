@@ -1,0 +1,21 @@
+.testimonials {
+  margin: 80px auto;
+  padding: 0 80px;
+  position: relative;
+}
+.next-icon,
+.back-icon {
+  position: absolute;
+  background: #212ea0;
+  cursor: pointer;
+  right: 0;
+  top: 50%;
+  width: 50px;
+  padding: 15px;
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+.back-icon {
+  right: auto;
+  left: 0;
+}

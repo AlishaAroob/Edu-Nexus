@@ -34,7 +34,7 @@ const Contact = () => {
     };
 
     return (
-        <div className='contact'>
+        <div className='contact' id='contact'>
             <div className="contact-col">
                 <h3>Send us a message <img src={Msg_icon} alt='' /></h3>
                 <p>At Edu-Nexus, we are dedicated to providing you with the best educational experience and support. Feel free to reach out to us through any of the following methods:

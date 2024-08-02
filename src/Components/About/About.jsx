@@ -1,15 +1,17 @@
-import React from 'react'
-import "./About.css"
+import React from 'react';
+import './About.css';
+import About_img from '../../assets/about.png'
+import Play from '../../assets/play-icon.png';
 
-import About_img from "../../assets/about.png"
-import Play from "../../assets/play-icon.png"
-
-const About = () => {
+const About = ({ setPlayState }) => {
+    const handlePlayVideo = () => {
+        setPlayState(true);
+    };
     return (
         <div className='about' id='about'>
             <div className="about-left">
                 <img src={About_img} alt='' className='about-img' />
-                <img src={Play} alt='' className='play-icon' />
+                <img src={Play} alt="Play" className="play-icon" onClick={handlePlayVideo} />
             </div>
             <div className="about-right">
                 <h3>About University</h3>

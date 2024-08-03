@@ -6,7 +6,7 @@ nav {
   left: 0;
   position: fixed;
   display: flex;
-  height: 80px;
+  height: 100px;
   align-items: center;
   z-index: 10;
   padding: 0 20px;
@@ -21,9 +21,9 @@ nav {
 }
 
 .logo {
-  width: 160px;
+  width: 150px;
   height: 120px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .bx-menu {
@@ -34,7 +34,7 @@ nav {
 
 h1 {
   padding-left: 10px;
-  margin-top: 30px;
+  margin-top: 5px;
 }
 
 nav ul {
@@ -73,7 +73,7 @@ nav ul li:hover {
 @media (max-width: 1200px) {
   .bx-menu {
     visibility: visible;
-    margin-top: 25px;
+    margin-top: 15px;
     position: right;
   }
 
@@ -127,7 +127,7 @@ nav ul li:hover {
 
   h1 {
     font-size: 16px;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   nav ul li {

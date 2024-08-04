@@ -1,4 +1,3 @@
-import React from 'react';
 import './About.css';
 import About_img from '../../assets/about.png'
 import Play from '../../assets/play-icon.png';
